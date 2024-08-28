@@ -29,7 +29,7 @@ importers:
         version: 22.2.0
       '@types/pg':
         specifier: ^8.11.6
-        version: 8.11.6
+        version: 8.11.7
       '@types/pg-copy-streams':
         specifier: ^1.2.5
         version: 1.2.5
@@ -120,8 +120,8 @@ packages:
   '@types/pg-copy-streams@1.2.5':
     resolution: {integrity: sha512-7D6/GYW2uHIaVU6S/5omI+6RZnwlZBpLQDZAH83xX1rjxAOK0f6/deKyyUTewxqts145VIGn6XWYz1YGf50G5g==}
 
-  '@types/pg@8.11.6':
-    resolution: {integrity: sha512-/2WmmBXHLsfRqzfHW7BNZ8SbYzE8OSk7i3WjFYvfgRHj7S1xj+16Je5fUKv3lVdVzk/zn9TXOqf+avFCFIE0yQ==}
+  '@types/pg@8.11.7':
+    resolution: {integrity: sha512-k4VGqp1LQzJP5pSK2TR3bJGr9CnErXeRubUEtJu+l1hFGbUwKyMZEjLAlWpfGkrZAatz0O4jP4YPqDepv8CRbQ==}
 
   '@types/webidl-conversions@7.0.3':
     resolution: {integrity: sha512-CiJJvcRtIgzadHCYXw7dqEnMNRjhGZlYK05Mj9OyktqV8uVT8fD2BFOB7S1uwBE3Kj2Z+4UyPmFw/Ixgw/LAlA==}
@@ -826,9 +826,9 @@ snapshots:
   '@types/pg-copy-streams@1.2.5':
     dependencies:
       '@types/node': 22.2.0
-      '@types/pg': 8.11.6
+      '@types/pg': 8.11.7
 
-  '@types/pg@8.11.6':
+  '@types/pg@8.11.7':
     dependencies:
       '@types/node': 22.2.0
       pg-protocol: 1.6.1
